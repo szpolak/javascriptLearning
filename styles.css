@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{
+    margin: 0;
+    padding: auto;
+    
+}
+body{
+    background-color: black;
+}
+#cointaner{
+    width: 400px;
+    height: 400px;
+    background-color: skyblue;
+    margin:auto;
+    justify-content: center;
+}
+#computer{
+    margin-top: 10px;
+}
+#computer, #user, #results{
+    text-align: center;
+    text-justify: center;
+}
+#computer, #user{
+    font-family: 'Roboto', sans-serif;
+}
+#results{
+    margin-top: 15%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+button #buttonwrap{
+    display: inline-block;
+}
+#buttonwrap{
+    text-align:center;
+
+}
+
+#scissors, #paper {
+    margin-top: 5%;
+}
+
+button{
+    background: transparent;
+    font-size: 25px;
+}
+#scissors{
+    color: blue;
+}
+#rock{
+    color: red;
+}
+#paper{
+    color: green;
+}
+
+
+@media screen and (max-width: 600px) {
+    #cointaner{
+     font-size: 25px;}
+   .map{
+       max-width: 100%;
+       height: 377px;
+       
+   }
+   #cointaner{
+       max-width: 100%;
+       
+   }
+}
